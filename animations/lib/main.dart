@@ -2,6 +2,12 @@ import 'package:animations/basics/02_page_route_builder.dart';
 import 'package:flutter/material.dart';
 
 import 'basics/01_animated_container.dart';
+import 'basics/03_animation_controller.dart';
+import 'basics/04_tweens.dart';
+import 'basics/05_animated_builder.dart';
+import 'basics/06_custom_tween.dart';
+import 'basics/07_tween_sequence.dart';
+import 'basics/08_fade_transition.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,7 +35,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: PageRouteBuilderDemo(),
+      home: FadeTransitionDemo(),
     );
   }
 }
